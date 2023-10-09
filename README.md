@@ -1,6 +1,9 @@
-# AI Hub Anomaly Detection
+# Anomaly Detection on Time Series Data
 
 A Domino Data Labs reference project showcasing anomaly detection on CPU Utilization data of EC2 Compute Instances
+
+## License
+This template is licensed to Customer subject to the terms of the license agreement between Domino and the Customer on file
 
 ## About this template
 This is a reference Domino Project adapted from the Kaggle dataset and notebook found [here](https://www.kaggle.com/code/leomauro/anomaly-detection-streaming-data/input).<br>
