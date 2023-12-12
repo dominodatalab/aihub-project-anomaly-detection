@@ -12,6 +12,9 @@ We are going to experiment Anomaly Detection in [Numenta Anomaly Benchmark (NAB)
 
 ## Prerequisities
 
+### Hardware
+This template works with a standard small-sized hardware tier, such as the small-k8s tier on all Domino deployments.
+
 ### Environment
 This template works on any standard Domino Environment, no GPUs are required. The necessary libraries are listed in the `requirements.txt` file.
 
