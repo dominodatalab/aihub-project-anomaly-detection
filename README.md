@@ -3,7 +3,11 @@
 A Domino Data Labs reference project showcasing anomaly detection on CPU Utilization data of EC2 Compute Instances
 
 ## License
-This template is licensed to Customer subject to the terms of the license agreement between Domino and the Customer on file.
+This template is licensed under Apache 2.0 and contains the following components: 
+* pandas [BSD 3](https://github.com/pandas-dev/pandas/blob/main/LICENSE)
+* scikit-Learn [BSD 3](https://github.com/scikit-learn/scikit-learn/blob/main/COPYING)
+* matplotlib [MDT](https://matplotlib.org/stable/users/project/license.html)
+* seaborn [BSD 3](https://github.com/mwaskom/seaborn/blob/master/LICENSE.md)
 
 ## About this template
 This is a reference Domino Project adapted from the Kaggle dataset and notebook found [here](https://www.kaggle.com/code/leomauro/anomaly-detection-streaming-data/input).<br>
