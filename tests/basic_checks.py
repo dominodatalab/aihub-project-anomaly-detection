@@ -31,7 +31,7 @@ class TestAnomalyDetectionTSData(unittest.TestCase):
 
     def test_csv_file_exists(self):
         """ Test if the csv data file exists """
-        data_file_path = '../code/cpu_util.csv'
+        data_file_path = '/mnt/code/cpu_util.csv'
         self.assertTrue(os.path.isfile(data_file_path), "csv data file does not exist")
 
 if __name__ == '__main__':
