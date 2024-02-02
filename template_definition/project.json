@@ -1,0 +1,61 @@
+{
+  "title": "Anomaly Detection on time-series data",
+  "id": "Anomaly Detection on time-series data",
+  "description": "This template project showcases anomaly detection on CPU Utilization data of EC2 Compute Instances.",
+  "base64Logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEyMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxsaW5lIHgxPSIxNS41IiB5MT0iMTciIHgyPSIxNS41IiB5Mj0iODMiIHN0cm9rZT0iI0U0RTRFNCIvPgo8bGluZSB4MT0iMTA1IiB5MT0iODIuNSIgeDI9IjE2IiB5Mj0iODIuNSIgc3Ryb2tlPSIjRTRFNEU0Ii8+CjxwYXRoIGQ9Ik0xNiA4MkwyNiA2MEwzNiA3NC41TDQ2IDI4TDU2IDQ5LjVMNjYgNTEuNUw3NiA1Nkw4NiA0Ny41TDk2IDU2TDEwNC41IDQ1LjUiIHN0cm9rZT0iI0IyQkZGMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CjxjaXJjbGUgY3g9IjQ2IiBjeT0iMjgiIHI9IjIiIGZpbGw9IiNGNzkwQTAiLz4KPGNpcmNsZSBjeD0iMzYiIGN5PSI3NSIgcj0iMiIgZmlsbD0iI0Y3OTBBMCIvPgo8Y2lyY2xlIGN4PSI4NiIgY3k9IjQ3IiByPSIyIiBmaWxsPSIjRjc5MEEwIi8+Cjwvc3ZnPgo=",
+  "categories": [
+    "Anomaly Detection",
+    "Time Series",
+    "Isolation Forest"
+  ],
+  "mainRepository": {
+    "uri": "https://github.com/dominodatalab/aihub-project-anomaly-detection",
+    "ref": {
+      "type": "commitId",
+      "value": "3a64c490544bc5a09c91e8b84d7f73e24981a39e"
+    },
+    "serviceProvider": "github"
+  },
+  "owner": {
+    "name": "Domino",
+    "link": "https://domino.ai"
+  },
+  "models": [
+    {
+      "name": "Isolation Forest",
+      "link": "https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html",
+      "size": null,
+      "source": null
+    }
+  ],
+  "license": {
+    "name": "Apache 2.0",
+    "link": "https://github.com/dominodatalab/aihub-project-anomaly-detection#license"
+  },
+  "data": {
+    "name": "This project uses data from the Numenta Anomaly Benchmark (NAB) which presents a corpus of 58 timeseries data files, designed to provide data for research in streaming anomaly detection.",
+    "link": "https://raw.githubusercontent.com/numenta/NAB/master/data/realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv"
+  },
+  "dataFormat": "CSV",
+  "recommended": false,
+  "prerequisites": null,
+  "goals": null,
+  "hardwareTier": {
+    "value": "This template works with a standard small-sized hardware tier, such as the small-k8s tier on all Domino deployments.",
+    "link": null
+  },
+  "environmentKey": null,
+  "environmentReqs": {
+    "value": "The code in this Template requires a DSE with Python 3.9 to run.",
+    "link": null
+  },
+  "importedRepositories": null,
+  "supportedDominoVersions": [
+    "5.10.0"
+  ],
+  "projectSettings": null,
+  "test": {
+    "test_command": "tests/basic_checks.py",
+    "hardware_tier_id": "small-k8s"
+  }
+}
